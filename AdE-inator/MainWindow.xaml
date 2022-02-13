@@ -1,0 +1,150 @@
+﻿<Window x:Class="AdE_inator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdE_inator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1220">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="0" Background="Gray">
+            <Label Content="calcolo cahce automatico - inator" FontFamily="Verdana" FontSize="18" Foreground="LightSeaGreen"></Label>
+        <StackPanel Orientation="Horizontal" Margin="0">
+            
+            <StackPanel Orientation="Horizontal" Margin="12,12" Height="30">
+                <Label Content="memoria totale"></Label>
+                <TextBox x:Name="TxtMemTor" Width="100"></TextBox>
+                <ComboBox Name="cmbMemGrand">
+                    <ComboBoxItem Content="Byte" ></ComboBoxItem>
+                    <ComboBoxItem Content="kByte"></ComboBoxItem>
+                    <ComboBoxItem Content="MByte"></ComboBoxItem>
+                    <ComboBoxItem Content="GByte"></ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="12,12" Height="30">
+                <Label Content="grandezza totale cache"></Label>
+                <TextBox x:Name="TxtCacheTot" Width="100"></TextBox>
+                    <ComboBox Name="cmbCache">
+                        <ComboBoxItem Content="Byte" ></ComboBoxItem>
+                    <ComboBoxItem Content="kByte"></ComboBoxItem>
+                    <ComboBoxItem Content="MByte"></ComboBoxItem>
+                    <ComboBoxItem Content="GByte"></ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="12,12" Height="60" VerticalAlignment="Center">
+                
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox x:Name="CKgrandBlocco" VerticalAlignment="Center" Checked="CKgrandBlocco_Checked"></CheckBox>
+                        <Label Content="grandezza del singolo blocco"></Label>
+                    </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox x:Name="CKParoleBlocco" VerticalAlignment="Center" Checked="CKParoleBlocco_Checked"></CheckBox>
+                            <Label Content="/ numero parole nel blocco"></Label>
+                        </StackPanel>
+                    </StackPanel>
+
+                <TextBox x:Name="TxtBlocco" Width="100"></TextBox>
+                <ComboBox Name="cmbBlocco">
+                    <ComboBoxItem Content="Byte" Name="cmbiD"></ComboBoxItem>
+                    <ComboBoxItem Content="kByte"></ComboBoxItem>
+                    <ComboBoxItem Content="MByte"></ComboBoxItem>
+                    <ComboBoxItem Content="GByte"></ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="12,12" Height="30">
+                <Label Content="grandezza parola"></Label>
+                <TextBox x:Name="TxtGrandParola" Width="100" ></TextBox>
+                <ComboBox Name="cmbGrandParola">
+                    <ComboBoxItem Content="Byte" ></ComboBoxItem>
+                    <ComboBoxItem Content="kByte"></ComboBoxItem>
+                    <ComboBoxItem Content="MByte"></ComboBoxItem>
+                    <ComboBoxItem Content="GByte"></ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="10">
+                <Label Content="cache indirizzamento diretto" Foreground="DarkRed"></Label>
+                <TextBlock x:Name="txbDiretto" Height="20" Foreground="Black"></TextBlock>
+                <TextBlock x:Name="txbNdiretto" Height="18"></TextBlock>
+                <StackPanel x:Name="barraDiretto" HorizontalAlignment="Stretch" Orientation="Horizontal" Height="20" Background="White"></StackPanel>
+                <StackPanel Orientation="Horizontal" Height="30" Margin="0">
+                    <StackPanel Orientation="Horizontal" Margin="1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Yellow"></Rectangle>
+                        <Label Content="= tag" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Green"></Rectangle>
+                        <Label Content="= indice blocco in cache" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Blue"></Rectangle>
+                        <Label Content="= indice parola nel blocco" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Orange"></Rectangle>
+                        <Label Content="= byte offset" FontSize="12"></Label>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical"  Margin="10">
+                <Label Content="cache associativa" Foreground="DarkRed"></Label>
+                <TextBlock x:Name="txbAssociativa"  Height="20" Foreground="Black"></TextBlock>
+                <TextBlock x:Name="txbNAssociativa" Height="18"></TextBlock>
+                <StackPanel Name="barraAssociativo" HorizontalAlignment="Stretch" Orientation="Horizontal" Height="20" Background="White"></StackPanel>
+                <StackPanel Orientation="Horizontal" Height="30" Margin="0">
+                    <StackPanel Orientation="Horizontal" Margin="1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Yellow"></Rectangle>
+                        <Label Content="= tag" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Blue"></Rectangle>
+                        <Label Content="= indice parola nel blocco" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Orange"></Rectangle>
+                        <Label Content="= byte offset" FontSize="12"></Label>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="cache set-associativa a " Foreground="DarkRed"></Label>
+                    <TextBox Name="txtVie" Width="20"></TextBox>
+                    <Label Content=" vie" Foreground="DarkRed"></Label>
+                </StackPanel>
+                
+                <TextBlock x:Name="txbSetAssociativa"  Height="20" Foreground="Black"></TextBlock>
+                <TextBlock x:Name="txbNSetAssociativa" Height="18"></TextBlock>
+                <StackPanel Name="barraSetAssociativa" HorizontalAlignment="Stretch" Orientation="Horizontal" Height="20" Background="White"></StackPanel>
+                <StackPanel Orientation="Horizontal" Height="30" Margin="0">
+                    <StackPanel Orientation="Horizontal" Margin="1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Yellow"></Rectangle>
+                        <Label Content="= tag" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Green"></Rectangle>
+                        <Label Content="= indice set in cache" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Blue"></Rectangle>
+                        <Label Content="= indice parola nel blocco" FontSize="12"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="20,1">
+                        <Rectangle Height="8" Width="8" Stroke="Black" Fill="Orange"></Rectangle>
+                        <Label Content="= byte offset" FontSize="12"></Label>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <Button Content="C A L C O L A" Name="btnCalcola" Click="btnCalcola_Click" Margin="12"></Button>
+
+        </StackPanel>
+    </Grid>
+</Window>

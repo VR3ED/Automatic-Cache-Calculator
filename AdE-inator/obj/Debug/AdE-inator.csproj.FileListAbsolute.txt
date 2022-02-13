@@ -1,0 +1,59 @@
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe.config
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\bin\Debug\AdE-inator.pdb
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csprojAssemblyReference.cache
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\MainWindow.g.cs
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\App.g.cs
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.cache
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.lref
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\MainWindow.baml
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.g.resources
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE_inator.Properties.Resources.resources
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.GenerateResource.cache
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.CoreCompileInputs.cache
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.exe
+C:\Users\Francesco Cavallini\Source\Repos\AdE-inator\AdE-inator\obj\Debug\AdE-inator.pdb
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe.config
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.pdb
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csprojAssemblyReference.cache
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\MainWindow.g.cs
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\App.g.cs
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.cache
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.lref
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\MainWindow.baml
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.g.resources
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE_inator.Properties.Resources.resources
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.GenerateResource.cache
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.exe
+C:\Users\iT-Taste\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.pdb
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe.config
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\bin\Debug\AdE-inator.pdb
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csprojAssemblyReference.cache
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\MainWindow.g.cs
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\App.g.cs
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.cache
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.lref
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\MainWindow.baml
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.g.resources
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE_inator.Properties.Resources.resources
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.GenerateResource.cache
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.CoreCompileInputs.cache
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.exe
+C:\Users\Francesco Cavallini\Desktop\AdE-inator\AdE-inator\obj\Debug\AdE-inator.pdb
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe.config
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\bin\Debug\AdE-inator.exe
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\bin\Debug\AdE-inator.pdb
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csprojAssemblyReference.cache
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\MainWindow.g.cs
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\App.g.cs
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.cache
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator_MarkupCompile.lref
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\MainWindow.baml
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.g.resources
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE_inator.Properties.Resources.resources
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.GenerateResource.cache
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.csproj.CoreCompileInputs.cache
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.exe
+D:\Users\Francesco Cavallini\Desktop\immagini ADE\AdE-inator\AdE-inator\obj\Debug\AdE-inator.pdb
